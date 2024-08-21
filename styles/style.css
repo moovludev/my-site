@@ -8,9 +8,8 @@ body {
   background-color: rgb(35, 35, 35);
   color: rgb(191, 191, 191);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  min-width: 25em;
+  width: 50em;
   /* Page Centering */
-  max-width: 50em;
   margin: auto;
   }
 
@@ -22,7 +21,7 @@ body {
 /* Navbar styles */
 nav {
   border-style: solid;
-  border-width: 1px;
+  border-width: 0.1em;
   padding: 1em;
   width: 10em;
   display: inline-block;
@@ -32,13 +31,25 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 150px;
 }
 
 nav li a {
   display: block;
   background-color: #ffffff;
-  margin-bottom: 5px;
+  margin-bottom: 1em;
+}
+
+.main_section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+/* Right main section */
+.main_content {
+  display: flex;
+  flex-direction: column;
+  background-color: purple;
 }
 
 /* Introduction */
@@ -46,7 +57,6 @@ nav li a {
   background-color: blue;
   display: inline-block;
   width: 35em;
-
 }
 
 /* Guestbook and Tips */
