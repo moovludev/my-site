@@ -12,10 +12,9 @@ body {
   margin: auto;
   }
 
-/* Header */
-.title > h1 {
-  text-align: center;
-} 
+p {
+  display: inline;
+}
 
 /* First section of the page */
 .section-top {
@@ -25,25 +24,23 @@ body {
   margin-bottom: 2em;
 }
 
-/* Navbar styles */
+/* Navigation bar */
 nav {
   border-style: solid;
   border-width: 0.1em;
   padding: 1em;
   width: 10em;
   display: inline-block;
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav li a {
-  display: block;
-  background-color: #ffffff;
-  margin-bottom: 1em;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li a {
+    display: block;
+    background-color: #ffffff;
+    margin-bottom: 1em;
+  }
 }
 
 /* Right top section */
@@ -51,6 +48,7 @@ nav li a {
   display: flex;
   flex-direction: column;
   background-color: purple;
+  width: 35em;
 }
 
 /* Introduction */
@@ -62,21 +60,32 @@ nav li a {
 
 /* Guestbook and Tips */
 .guestbook-and-tips {
+  margin-top: 2em;
   background-color: yellow;
-  display: inline;
+  display: flex;
+  align-items: center;
   /* Inline elements */
   > a {
     background-color: green;
+    width: 45%;
   }
+}
+
+.tips {
+  display: flex;
 }
 
 /* Second section of the page */
 .section-middle {
   margin-bottom: 2em;
-  > div {
-    display: inline-block;
-    background-color: chocolate;
-  }
+  display: flex;
+}
+
+.status {
+  border-color: blue;
+  border-style: solid;
+  border-width: 0.1em;
+  height: 10
 }
 
 /* The bottom section of the page */
@@ -85,4 +94,37 @@ nav li a {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+.social-links {
+  border-style: solid;
+  border-width: 0.1em;
+  padding: 1em;
+  width: 10em;
+  display: inline-block;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Images */
+.image-title {
+  width: 100%;
+  margin-top: 10em;
+  margin-bottom: 2em;
+}
+.image-guestbook {
+  width: 100%;
+
+}
+.image-ad {
+  width: 70%;
 }
