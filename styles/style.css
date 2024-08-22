@@ -9,7 +9,6 @@ body {
   color: rgb(191, 191, 191);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 50em;
-  /* Page Centering */
   margin: auto;
   }
 
@@ -17,6 +16,14 @@ body {
 .title > h1 {
   text-align: center;
 } 
+
+/* First section of the page */
+.section-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin-bottom: 2em;
+}
 
 /* Navbar styles */
 nav {
@@ -39,14 +46,8 @@ nav li a {
   margin-bottom: 1em;
 }
 
-.main_section {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1em;
-}
-
-/* Right main section */
-.main_content {
+/* Right top section */
+.content-right {
   display: flex;
   flex-direction: column;
   background-color: purple;
@@ -60,11 +61,28 @@ nav li a {
 }
 
 /* Guestbook and Tips */
-.guestbook_and_tips {
+.guestbook-and-tips {
   background-color: yellow;
   display: inline;
   /* Inline elements */
   > a {
     background-color: green;
   }
+}
+
+/* Second section of the page */
+.section-middle {
+  margin-bottom: 2em;
+  > div {
+    display: inline-block;
+    background-color: chocolate;
+  }
+}
+
+/* The bottom section of the page */
+.section-bottom {
+  background-color: yellow;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
