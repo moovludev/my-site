@@ -1,8 +1,12 @@
-/* Testing */
+/* Testing DELETE AFTER */
 * > * {
   background-color: red;
   border-color: blue;
 }
+img {
+  background-color:unset;
+}
+/* Testing DELETE AFTER */
 
 body {
   background-color: rgb(35, 35, 35);
@@ -109,12 +113,6 @@ nav {
   }
 }
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
 /* Images */
 .image-title {
   width: 100%;
@@ -127,4 +125,19 @@ nav ul {
 }
 .image-ad {
   width: 70%;
+}
+/* WIP Images */
+.image-wip-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  image-rendering: pixelated;
+}
+.image-wip-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width:100%;
+  image-rendering: pixelated;
 }
