@@ -32,7 +32,8 @@ p {
 nav {
   border-style: solid;
   border-width: 0.1em;
-  padding: 1em;
+  padding-right: 1em;
+  padding-left: 1em;
   width: 10em;
   display: inline-block;
   ul {
@@ -43,7 +44,7 @@ nav {
   li a {
     display: block;
     background-color: #ffffff;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
   }
 }
 
@@ -123,6 +124,9 @@ nav {
   width: 50em;
   margin-top: 5em;
   margin-bottom: 2em;
+}
+.image-nav {
+  width: 3em
 }
 .image-guestbook {
   width: 15.5em;
