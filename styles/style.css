@@ -98,6 +98,7 @@ nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-bottom: 5em;
 }
 
 .social-links {
@@ -114,17 +115,23 @@ nav {
 }
 
 /* Images */
+/* Note: all pixel art images are multiplied by 3 */
+.pixelated {
+  image-rendering: pixelated;
+}
 .image-title {
-  width: 100%;
-  margin-top: 10em;
+  width: 50em;
+  margin-top: 5em;
   margin-bottom: 2em;
 }
 .image-guestbook {
-  width: 100%;
-
+  width: 15.5em;
+}
+.image-little-guy {
+  width: 6em;
 }
 .image-ad {
-  width: 70%;
+  width: 38em;
 }
 /* WIP Images */
 .image-wip-top {
