@@ -1,6 +1,6 @@
 /* Testing DELETE AFTER */
 * > * {
-  background-color: red;
+  background-color: rgba(255, 0, 0, 0.185);
   border-color: blue;
 }
 img {
@@ -15,10 +15,12 @@ img {
 }
 
 body {
-  background-color: rgb(35, 35, 35);
+  background-image: url(/images/shibuya_dithered_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: rgb(191, 191, 191);
   font-family: basiic, Verdana, Geneva, Tahoma, sans-serif;
-  width: 50em;
+  width: 56em;
   margin: auto;
   }
 
@@ -35,8 +37,12 @@ h3 {
 
 /* Page container */
 .container {
-  margin-top: 5em;
-  background-color: rgb(50, 44, 68);
+  padding-top: 5em;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-bottom: 5em;
+  background-color: rgba(50, 44, 68, 0);
+  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.7) 10%, rgba(0, 0, 0, 0.7) 90%, transparent)
 }
 
 /* First section of the page */
@@ -82,17 +88,27 @@ nav {
 
 }
 
+.nav-about:hover {
+  img {
+    content: url(/images/nav_icon_about.gif);
+    height: 2em;
+  }
+}
+
 /* Right top section */
 .content-right {
   display: flex;
   flex-direction: column;
   background-color: purple;
+  border-width: 0.1em;
+  border-style: solid;
+  border-color: blue;
   width: 35em;
 }
 
 /* Introduction */
 .introduction {
-  background-color: blue;
+  /* background-color: blue; */
   display: inline-block;
   width: 35em;
   padding-top: 0.5em;
@@ -134,7 +150,6 @@ nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-bottom: 5em;
 }
 
 .social-links {
@@ -160,7 +175,7 @@ nav {
   margin-bottom: 2em;
 }
 .image-nav {
-  width: 2em
+  width: 2em;
 }
 .image-guestbook {
   width: 15.5em;
