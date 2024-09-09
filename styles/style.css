@@ -1,11 +1,11 @@
 /* Testing DELETE AFTER */
-* > * {
+/* * > * {
   background-color: rgba(255, 0, 0, 0.185);
   border-color: blue;
 }
 img {
   background-color:unset;
-}
+} */
 /* Testing DELETE AFTER */
 
 /* Font by Cinni https://cinni.net/*/
@@ -20,7 +20,7 @@ body {
   background-size: cover;
   color: rgb(191, 191, 191);
   font-family: basiic, Verdana, Geneva, Tahoma, sans-serif;
-  width: 56em;
+  width: 60em;
   margin: auto;
   }
 
@@ -38,11 +38,24 @@ h3 {
 /* Page container */
 .container {
   padding-top: 5em;
-  padding-left: 3em;
-  padding-right: 3em;
+  padding-left: 5em;
+  padding-right: 5em;
   padding-bottom: 5em;
-  background-color: rgba(50, 44, 68, 0);
-  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.7) 10%, rgba(0, 0, 0, 0.7) 90%, transparent)
+  background-color: rgba(255, 255, 255, 0);
+  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 0.6) 90%, transparent)
+}
+
+/* Main site colors and spacing in sections */
+.section {
+  background-color: rgba(47, 36, 44, 0.703);
+  border-width: 0.1em;
+  border-style: solid;
+  border-color: rgb(117, 55, 72);
+  padding: 1em;
+  /* Background styling */
+  background-image: url(/images/bubble_background.png);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
 }
 
 /* First section of the page */
@@ -55,12 +68,7 @@ h3 {
 
 /* Navigation bar */
 nav {
-  border-style: solid;
-  border-width: 0.1em;
-  padding-right: 1em;
-  padding-left: 0.5em;
-  padding-top: 0.5em;
-  width: 12em;
+  width: 11.5em;
   display: inline-block;
 
   ul {
@@ -70,7 +78,7 @@ nav {
   }
 
   li {
-    border-bottom: 0.15em solid;
+    border-bottom: 0.10em solid;
     margin-bottom: 0.5em;
 
     a {
@@ -80,7 +88,6 @@ nav {
       p, img {
         vertical-align: middle;
         padding-right: 0.2em;
-        color: rgb(76, 39, 87);
         font-weight: bold;
       }
     }
@@ -99,11 +106,7 @@ nav {
 .content-right {
   display: flex;
   flex-direction: column;
-  background-color: purple;
-  border-width: 0.1em;
-  border-style: solid;
-  border-color: blue;
-  width: 35em;
+  width: 33em;
 }
 
 /* Introduction */
@@ -117,13 +120,11 @@ nav {
 /* Guestbook and Tips */
 .guestbook-and-tips {
   margin-top: 2em;
-  background-color: yellow;
   display: flex;
   align-items: center;
   /* Inline elements */
   > a {
-    background-color: green;
-    width: 45%;
+    width: 50%;
   }
 }
 
@@ -135,21 +136,19 @@ nav {
 .section-middle {
   margin-bottom: 2em;
   display: flex;
+  width: 100%;
 }
 
 .status {
-  border-color: blue;
-  border-style: solid;
-  border-width: 0.1em;
-  height: 10
+  
 }
 
 /* The bottom section of the page */
 .section-bottom {
-  background-color: yellow;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  width: 100%;
 }
 
 .social-links {
@@ -181,7 +180,7 @@ nav {
   width: 15.5em;
 }
 .image-little-guy {
-  width: 6em;
+  width: 8em;
 }
 .image-ad {
   width: 38em;
