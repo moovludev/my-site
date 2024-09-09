@@ -140,7 +140,6 @@ nav {
 }
 
 .status {
-  
 }
 
 /* The bottom section of the page */
@@ -183,7 +182,8 @@ nav {
   width: 8em;
 }
 .image-ad {
-  width: 38em;
+  width: 32.5em;
+  margin-right: 1em;
 }
 
 
