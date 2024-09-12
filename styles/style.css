@@ -95,9 +95,17 @@ nav {
 
 }
 
+/* Navigation animated hover images */
 .nav-about:hover {
   img {
     content: url(/images/nav_icon_about.gif);
+    height: 2em;
+  }
+}
+
+.nav-blog:hover {
+  img {
+    content: url(/images/nav_icon_blog.gif);
     height: 2em;
   }
 }
@@ -106,13 +114,13 @@ nav {
 .content-right {
   display: flex;
   flex-direction: column;
-  width: 33em;
+  flex-grow: 1;
+  width: 32em;
 }
 
 /* Introduction */
 .introduction {
   display: inline-block;
-  width: 35em;
   padding-top: 0.5em;
 }
 
@@ -175,9 +183,11 @@ nav {
   margin-bottom: 2em;
   display: flex;
   width: 100%;
+  gap: 4.4em;
 }
 
 .status {
+  width: 11em
 }
 
 /* The bottom section of the page */
@@ -185,7 +195,6 @@ nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: 100%;
 }
 
 .social-links {
@@ -222,7 +231,6 @@ nav {
 }
 .image-ad {
   width: 32.5em;
-  margin-right: 1em;
 }
 
 
