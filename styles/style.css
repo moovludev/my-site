@@ -110,6 +110,13 @@ nav {
   }
 }
 
+.nav-new-tab:hover {
+  img {
+    content: url(/images/nav_icon_new_tab.gif);
+    height: 2em;
+  }
+}
+
 /* Right top section */
 .content-right {
   display: flex;
