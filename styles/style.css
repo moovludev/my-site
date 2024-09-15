@@ -15,7 +15,7 @@ img {
 }
 
 body {
-  background-image: url(./images/shibuya_dithered_background.png);
+  background-image: url(images/shibuya_dithered_background.png);
   background-repeat: no-repeat;
   background-size: cover;
   color: rgb(191, 191, 191);
@@ -53,7 +53,7 @@ h3 {
   border-color: rgb(117, 55, 72);
   padding: 1em;
   /* Background styling */
-  background-image: url(./images/bubble_background.png);
+  background-image: url(images/bubble_background.png);
   background-repeat: no-repeat;
   background-position: 0 100%;
 }
@@ -98,21 +98,21 @@ nav {
 /* Navigation animated hover images */
 .nav-about:hover {
   img {
-    content: url(./images/nav_icon_about.gif);
+    content: url(images/nav_icon_about.gif);
     height: 2em;
   }
 }
 
 .nav-blog:hover {
   img {
-    content: url(./images/nav_icon_blog.gif);
+    content: url(images/nav_icon_blog.gif);
     height: 2em;
   }
 }
 
 .nav-new-tab:hover {
   img {
-    content: url(./images/nav_icon_new_tab.gif);
+    content: url(images/nav_icon_new_tab.gif);
     height: 2em;
   }
 }
