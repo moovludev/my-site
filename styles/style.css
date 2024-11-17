@@ -11,10 +11,16 @@ img {
 
 /* --------------------------------------- Fonts --------------------------------------- */
 
-/* Font by Cinni https://cinni.net/*/
+/* Font by Cinni https://cinni.net/ */
 @font-face {
   font-family: basiic;
   src: url(basiic.ttf)
+}
+
+/* Font by CTFonts https://fontstruct.com/fontstructions/show/2096374/ms-sans-serif-2-1 */
+@font-face {
+  font-family: pixel-sans-serif;
+  src: url(ms-sans-serif-2.otf)
 }
 
 /* --------------------------------------- Universal --------------------------------------- */
@@ -23,21 +29,23 @@ body {
   background-image: url(/images/shibuya_dithered_background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  color: rgb(191, 191, 191);
-  font-family: basiic, Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(201, 53, 105);
+  font-family: pixel-sans-serif, basiic, Verdana, Geneva, Tahoma, sans-serif;
   width: 60em;
   margin: auto;
   }
 
 p {
   display: inline;
+  font-size: 18px;
 }
 
 /* Subheadings */
 h3 {
-  margin-top: 0em;
+  margin-top: 0;
   margin-bottom: 0.5em;
-  font-size: medium;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /* --------------------------------------- Major sections --------------------------------------- */
@@ -62,7 +70,6 @@ h3 {
   /* Background styling */
   background-image: url(/images/bubble_background.png);
   background-repeat: no-repeat;
-  background-position: 0 100%;
 }
 
 /* First section of the page */
@@ -140,6 +147,10 @@ nav {
 .introduction {
   display: inline-block;
   padding-top: 0.5em;
+
+  > p {
+    display: block;
+  }
 }
 
 /* Guestbook and Tips */
@@ -170,6 +181,7 @@ nav {
   margin-left: 0.5em;
   padding-left: 0.5em;
   padding-right: 0.5em;
+  font-family: basiic;
 
   :after {
     content: '';
@@ -283,5 +295,5 @@ nav {
   margin-bottom: 0;
   font-weight: bold;
   font-size: 1.5em;
-  color: rgb(123, 0, 105);
+  color: #5b103d;
 }
