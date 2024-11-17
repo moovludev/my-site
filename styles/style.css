@@ -8,14 +8,19 @@ img {
 } */
 /* Testing DELETE AFTER */
 
+
+/* --------------------------------------- Fonts --------------------------------------- */
+
 /* Font by Cinni https://cinni.net/*/
 @font-face {
   font-family: basiic;
   src: url(basiic.ttf)
 }
 
+/* --------------------------------------- Universal --------------------------------------- */
+
 body {
-  background-image: url(images/shibuya_dithered_background.png);
+  background-image: url(/images/shibuya_dithered_background.png);
   background-repeat: no-repeat;
   background-size: cover;
   color: rgb(191, 191, 191);
@@ -35,6 +40,8 @@ h3 {
   font-size: medium;
 }
 
+/* --------------------------------------- Major sections --------------------------------------- */
+
 /* Page container */
 .container {
   padding-top: 5em;
@@ -53,7 +60,7 @@ h3 {
   border-color: rgb(117, 55, 72);
   padding: 1em;
   /* Background styling */
-  background-image: url(images/bubble_background.png);
+  background-image: url(/images/bubble_background.png);
   background-repeat: no-repeat;
   background-position: 0 100%;
 }
@@ -65,6 +72,8 @@ h3 {
   gap: 1em;
   margin-bottom: 2em;
 }
+
+/* --------------------------------------- Navigation --------------------------------------- */
 
 /* Navigation bar */
 nav {
@@ -98,24 +107,26 @@ nav {
 /* Navigation animated hover images */
 .nav-about:hover {
   img {
-    content: url(images/nav_icon_about.gif);
+    content: url(/images/nav_icon_about.gif);
     height: 2em;
   }
 }
 
 .nav-blog:hover {
   img {
-    content: url(images/nav_icon_blog.gif);
+    content: url(/images/nav_icon_blog.gif);
     height: 2em;
   }
 }
 
 .nav-new-tab:hover {
   img {
-    content: url(images/nav_icon_new_tab.gif);
+    content: url(/images/nav_icon_new_tab.gif);
     height: 2em;
   }
 }
+
+/* --------------------------------------- Top right section --------------------------------------- */
 
 /* Right top section */
 .content-right {
@@ -185,6 +196,8 @@ nav {
   margin-top: 0.5em;
 }
 
+/* --------------------------------------- Middle section --------------------------------------- */
+
 /* Second section of the page */
 .section-middle {
   margin-bottom: 2em;
@@ -196,6 +209,8 @@ nav {
 .status {
   width: 11em
 }
+
+/* --------------------------------------- Bottom section --------------------------------------- */
 
 /* The bottom section of the page */
 .section-bottom {
@@ -217,7 +232,8 @@ nav {
   }
 }
 
-/* Images */
+/* --------------------------------------- Images --------------------------------------- */
+
 /* Note: all pixel art images are multiplied by 2 */
 .pixelated {
   image-rendering: pixelated;
@@ -240,8 +256,6 @@ nav {
   width: 32.5em;
 }
 
-
-
 /* WIP Images */
 .image-wip-top {
   position: fixed;
@@ -258,4 +272,16 @@ nav {
   width:100%;
   image-rendering: pixelated;
   pointer-events: none;
+}
+
+/* --------------------------------------- Other --------------------------------------- */
+
+.version-number {
+  position: fixed;
+  bottom: 0;
+  right: 0.5em;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: rgb(123, 0, 105);
 }
