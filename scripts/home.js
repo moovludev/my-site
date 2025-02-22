@@ -1,12 +1,12 @@
 // Load up statuscafe
-document.writeln('<div id="statuscafe"><div id="statuscafe-username"></div><div id="statuscafe-content"></div></div>');
+// document.writeln('<div id="statuscafe"><div id="statuscafe-username"></div><div id="statuscafe-content"></div></div>');
 
-fetch("https://status.cafe/users/moovlu/status.json")
-  .then( r => r.json() )
-  .then( r => {
-    document.getElementById("statuscafe-username").innerHTML = '<a href="https://status.cafe/users/moovlu" target="_blank">' + r.author + '</a> ' + r.face + ' ' + r.timeAgo
-    document.getElementById("statuscafe-content").innerHTML = r.content
-  })
+// fetch("https://status.cafe/users/moovlu/status.json")
+//   .then( r => r.json() )
+//   .then( r => {
+//     document.getElementById("statuscafe-username").innerHTML = '<a href="https://status.cafe/users/moovlu" target="_blank">' + r.author + '</a> ' + r.face + ' ' + r.timeAgo
+//     document.getElementById("statuscafe-content").innerHTML = r.content
+//   })
 
 
 // Load a random tip
