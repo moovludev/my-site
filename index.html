@@ -5,7 +5,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Moovlu">
-        <link href="styles/style.css" rel="stylesheet">
+        <link href="/styles/style.css" rel="stylesheet">
+        <link href="/styles/home.css" rel="stylesheet">
         <!-- Preload animated navbar icons -->
         <link rel="preload"as="image"href="/images/nav_icon_about.gif">
         <link rel="preload"as="image"href="/images/nav_icon_blog.gif">
@@ -16,7 +17,7 @@
     <body>
         <div class="container">
             <!-- Title -->
-            <img src="images/title.png" alt="" class="image-title pixelated">
+            <img src="images/title.png" alt="" class="image-title">
 
             <!-- First section -->
             <div class="section-top">
@@ -26,31 +27,31 @@
                     <ul>
                         <li class="nav-about">
                             <a href="about.html">
-                                <img src="images/nav_icon_about.png" class="image-nav pixelated">
+                                <img src="images/nav_icon_about.png" class="image-nav">
                                 <p>About</p>
                             </a>
                         </li>
                         <li class="nav-blog">
                             <a href="/blog/index.html">
-                                <img src="images/nav_icon_blog.png" class="image-nav pixelated">
+                                <img src="images/nav_icon_blog.png" class="image-nav">
                                 <p>Yapping page</p>
                             </a>
                         </li>
                         <li class="nav-new-tab">
                             <a href="newtab.html">
-                                <img src="images/nav_icon_new_tab.png" class="image-nav pixelated">
+                                <img src="images/nav_icon_new_tab.png" class="image-nav">
                                 <p>New tab page</p>
                             </a>
                         </li>
                         <li class="nav-fumo">
                             <a href="fumo.html">
-                                <img src="images/nav_icon_fumo.png" class="image-nav pixelated">
+                                <img src="images/nav_icon_fumo.png" class="image-nav">
                                 <p>Fumo page</p>
                             </a>
                         </li>
                         <li class="nav-credits">
                             <a href="credits.html">
-                                <img src="images/nav_icon_credits.png" class="image-nav pixelated">
+                                <img src="images/nav_icon_credits.png" class="image-nav">
                                 <p>Credits</p>
                             </a>
                         </li>
@@ -75,9 +76,9 @@
 
                     <div class="guestbook-and-tips">
                         <!-- Guestbook and tips -->
-                        <a href="https://moovlu.atabook.org/"><img src="images/guestbook.png" alt="" class="image-guestbook pixelated"></a>
+                        <a href="https://moovlu.atabook.org/"><img src="images/guestbook.png" alt="" class="image-guestbook"></a>
                         <div class="tips">
-                            <img src="images/little_guy.png" alt="" class="image-little-guy pixelated">
+                            <img src="images/little_guy.png" alt="" class="image-little-guy">
                             <div>
                                 <div class="tip-container">
                                     <p class="tip-heading">Super cool tip</p>
@@ -91,11 +92,11 @@
             <!-- Second Section -->
             <div class="section-middle">
                 <!-- Fake Advertisements -->
-                <div>
-                    <a href="" target="_blank"><img src="images/ad_placeholder.png" alt="" class="image-ad pixelated"></a>
-                    <a href="" target="_blank" hidden><img src="images/ad_placeholder.png" alt="" class="image-ad pixelated"></a>
-                    <a href="" target="_blank" hidden><img src="images/ad_placeholder.png" alt="" class="image-ad pixelated"></a>
-                    <a href="" target="_blank" hidden><img src="images/ad_placeholder.png" alt="" class="image-ad pixelated"></a>
+                <div class="advert-container">
+                    <a href="" target="_blank"><img src="images/ad_placeholder.png" alt="" class="image-ad"></a>
+                    <a href="" target="_blank" hidden><img src="images/ad_placeholder.png" alt="" class="image-ad"></a>
+                    <a href="" target="_blank" hidden><img src="images/ad_placeholder.png" alt="" class="image-ad"></a>
+                    <a href="" target="_blank" hidden><img src="images/ad_placeholder.png" alt="" class="image-ad"></a>
                 </div>
 
                 <!-- Status Section-->
@@ -108,7 +109,7 @@
                                 <a href="https://status.cafe/users/moovlu" target="_blank">
                                     <p>Moovlu</p>
                                 </a>
-                                <p>999 days ago</p>
+                                <p class="subtext"> - 999 days ago</p>
                             </span>
                         </div>
                         <div id="statuscafe-content">
@@ -117,24 +118,25 @@
                     </div>
             </div>
 
-            <div class="section-bottom section">
-                <div>
+            <div class="section-bottom">
+                <div class="information-container section">
+                    <h3>Information and Stuffs</h3>
                     <!-- Page Information pane -->
                     <div>
                         <a href="/updates.html" target="iframe_information">Updates</a>
                         <a href="/todo.html" target="iframe_information">To do</a>
                     </div>
-                    <iframe src="/updates.html" name="iframe_information" title=""></iframe>
+                    <iframe src="/updates.html" name="iframe_information" title="" class="information-iframe"></iframe>
                 </div>
 
-                <section class="social-links">
+                <section class="social-links section">
                     <!-- Social links -->
                     <h3>Other Links</h3>
                     <ul>
-                        <li><a href="https://github.com/Moovlu" target="_blank"><img src="images/social_link_placeholder.png" alt="GitHub social link" class="pixelated"></a></li>
-                        <li><a href="https://anilist.co/user/Moovlu/" target="_blank"><img src="images/social_link_placeholder.png" alt="Anilist social link" class="pixelated"></a></li>
-                        <li><a href="https://steamcommunity.com/id/moovlu/" target="_blank"><img src="images/social_link_placeholder.png" alt="Steam social link" class="pixelated"></a></li>
-                        <li><a href="https://www.youtube.com/@Moovlu" target="_blank"><img src="images/social_link_placeholder.png" alt="YouTube social link" class="pixelated"></a></li>
+                        <li><a href="https://github.com/Moovlu" target="_blank"><img src="images/social_link_placeholder.png" alt="GitHub social link" class="social-link"></a></li>
+                        <li><a href="https://anilist.co/user/Moovlu/" target="_blank"><img src="images/social_link_placeholder.png" alt="Anilist social link" class="social-link"></a></li>
+                        <li><a href="https://steamcommunity.com/id/moovlu/" target="_blank"><img src="images/social_link_placeholder.png" alt="Steam social link" class="social-link"></a></li>
+                        <li><a href="https://www.youtube.com/@Moovlu" target="_blank"><img src="images/social_link_placeholder.png" alt="YouTube social link" class="social-link"></a></li>
                     </ul>
                 </section>
             </div>

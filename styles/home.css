@@ -1,0 +1,17 @@
+/* --------------------------------------- Homepage styling --------------------------------------- */
+
+body {
+    background-image: url(/images/shibuya_dithered_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* --------------------------------------- Status Section --------------------------------------- */
+
+#statuscafe-username {
+    padding-bottom: 0.5em;
+}
+
+.subtext {
+    font-style: italic;
+}
