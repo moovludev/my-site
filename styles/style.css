@@ -18,6 +18,7 @@ body {
   background-image: url(/images/shibuya_dithered_background.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: rgb(201, 53, 105);
   font-family: pixel-sans-serif, basiic, Verdana, Geneva, Tahoma, sans-serif;
   width: 60em;
   margin: auto;
