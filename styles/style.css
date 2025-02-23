@@ -15,16 +15,13 @@
 /* --------------------------------------- Universal --------------------------------------- */
 
 body {
+  background-image: url(/images/shibuya_dithered_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: pixel-sans-serif, basiic, Verdana, Geneva, Tahoma, sans-serif;
   width: 60em;
   margin: auto;
   image-rendering: pixelated;
-  }
-
-p {
-  display: inline;
-  font-size: 16px;
-  color: rgb(245, 214, 227);
 }
 
 /* Subheadings */
@@ -49,6 +46,22 @@ a {
   :active {
     text-decoration: underline;
   }
+}
+
+p {
+  display: inline;
+  font-size: 16px;
+  color: rgb(245, 214, 227);
+}
+
+.subtext {
+  font-style: italic;
+}
+
+.emoji {
+  height: 14px;
+  width: 14px;
+  padding-left: 2px;
 }
 
 /* --------------------------------------- Major sections --------------------------------------- */
@@ -197,7 +210,6 @@ nav {
   margin-left: 0.5em;
   padding-left: 0.5em;
   padding-right: 0.5em;
-  /* font-family: basiic; */
 
   :after {
     content: '';
@@ -255,6 +267,10 @@ nav {
   width: 32px;
 }
 
+#statuscafe-username {
+  padding-bottom: 0.5em;
+}
+
 /* --------------------------------------- Bottom section --------------------------------------- */
 
 /* The bottom section of the page */
@@ -295,6 +311,7 @@ nav {
 .social-link {
   width: 190px;
   height: 50px;
+  padding-bottom: 0.5em;
 }
 
 /* --------------------------------------- Images --------------------------------------- */
@@ -316,6 +333,7 @@ nav {
 }
 .image-ad {
   width: 32.5em;
+  height: 100px;
 }
 
 /* WIP Images */
