@@ -15,7 +15,7 @@
 /* --------------------------------------- Universal --------------------------------------- */
 
 body {
-  background-image: url(/images/shibuya_dithered_background.png);
+  background-image: url(../images/shibuya_dithered_background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgb(201, 53, 105);
@@ -85,7 +85,7 @@ p {
   border-color: rgb(117, 55, 72);
   padding: 1em;
   /* Background styling */
-  background-image: url(/images/bubble_background.png);
+  background-image: url(../images/bubble_background.png);
   background-repeat: no-repeat;
 }
 
@@ -131,35 +131,35 @@ nav {
 /* Navigation animated hover images */
 .nav-about:hover {
   img {
-    content: url(/images/nav_icon_about.gif);
+    content: url(../images/nav_icon_about.gif);
     height: 2em;
   }
 }
 
 .nav-blog:hover {
   img {
-    content: url(/images/nav_icon_blog.gif);
+    content: url(../images/nav_icon_blog.gif);
     height: 2em;
   }
 }
 
 .nav-new-tab:hover {
   img {
-    content: url(/images/nav_icon_new_tab.gif);
+    content: url(../images/nav_icon_new_tab.gif);
     height: 2em;
   }
 }
 
 .nav-fumo:hover {
   img {
-    content: url(/images/nav_icon_fumo.gif);
+    content: url(../images/nav_icon_fumo.gif);
     height: 2em;
   }
 }
 
 .nav-credits:hover {
   img {
-    content: url(/images/nav_icon_credits.gif);
+    content: url(../images/nav_icon_credits.gif);
     height: 2em;
   }
 }
@@ -327,7 +327,7 @@ nav {
 }
 .image-guestbook {
   width: 15.5em;
-  cursor: url(/images/Cursor/ds-stylus.png), auto;
+  cursor: url(../images/Cursor/ds-stylus.png), auto;
 }
 .image-little-guy {
   width: 8em;

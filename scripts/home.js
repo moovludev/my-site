@@ -8,7 +8,7 @@ fetch("https://status.cafe/users/moovlu/status.json")
 		if (statusUsername && statusContent) {
 		statusUsername.innerHTML = `
 			<div class="status-container">
-			<img src="/images/status_avatar_placeholder.png" class="status-image" alt="User Avatar">
+			<img src="./images/status_avatar_placeholder.png" class="status-image" alt="User Avatar">
 			<span>
 				<a href="https://status.cafe/users/moovlu" target="_blank" rel="noopener noreferrer">
 				<p>${data.author}</p>
