@@ -1,0 +1,34 @@
+/* --------------------------------------- Fonts --------------------------------------- */
+
+/* Font by Cadson Demak https://github.com/cadsondemak/charm */
+@font-face {
+    font-family: charm-bold;
+    src: url(Charm-Regular.ttf);
+}
+
+/* --------------------------------------- Universal --------------------------------------- */
+
+body {
+    font-family: charm-bold, sans-serif;
+    background-color: rgb(17, 21, 37);
+}
+
+.centered {
+    display: block;
+    margin: auto;
+    width: 40em;
+}
+
+/* --------------------------------------- Introduction --------------------------------------- */
+
+.intro-section {
+    
+}
+
+.intro-text {
+    margin-top: 9em;
+    margin-left: 3em;
+    margin-bottom: 10em;
+    font-size: 3em;
+    color: white;
+}
