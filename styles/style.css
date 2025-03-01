@@ -327,6 +327,7 @@ nav {
 }
 .image-guestbook {
   width: 15.5em;
+  cursor: url(/images/Cursor/ds-stylus.png), auto;
 }
 .image-little-guy {
   width: 8em;
