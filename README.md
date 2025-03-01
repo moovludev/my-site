@@ -3,7 +3,7 @@ A website I've created entirely from scratch. The live version of this site is h
 
 I want to ensure as much as possible on this site is created by me. That means:
 - Every line of code is written by me
-- Every asset is made by me
+- Every asset is made by me or referenced in the code and credits page
 
 Any instance of something not created by me will be attributed inside of the credits page.
 
