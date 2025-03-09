@@ -309,10 +309,14 @@ nav {
   }
 }
 
+.social-container {
+  margin-bottom: 0.2em;
+  display: block;
+}
+
 .social-link {
   width: 190px;
   height: 50px;
-  padding-bottom: 0.5em;
 }
 
 /* --------------------------------------- Images --------------------------------------- */
