@@ -1,5 +1,5 @@
 # My Personal Site
-A website I've created entirely from scratch. The live version of this site is hosted on [Neocities](https://moovlu.neocities.org/) while the development version is hosted here on [GitHub Pages](https://moovlu.github.io/my-site/).
+A website I've created entirely from scratch. The live version of this site is hosted on [Neocities](https://moovlu.neocities.org/) while the [development version](https://github.com/moovludev/my-site/tree/dev) is hosted here on [GitHub Pages](https://moovludev.github.io/my-site/).
 
 I want to ensure as much as possible on this site is created by me. That means:
 - Every line of code is written by me
@@ -11,17 +11,17 @@ Any instance of something not created by me will be attributed inside of the cre
 > If I accidentally miss a reference to any material, please create a GitHub issue or contact me.
 
 ## Repository Overview
-- /blog
-  - The blog subdirectory containing all blog pages
 - /design
   - All relevent design documents used during planning and development
     - Krita KRA files
     - Aseprite files
-- /images
+- /public/blog
+  - The blog subdirectory containing all blog pages
+- /public/images
   - All images used
-- /scripts
+- /public/scripts
   - All JavaScript used
-- /styles
+- /public/styles
   - All CSS stylesheets and TTF font files
 
 ## Code Usage
